@@ -10,8 +10,6 @@ public class DatabaseConnection {
         String url = "jdbc:mysql://localhost:3306/sakila";
         String user = "sakila";
         String password = "p_ssW0rd";
-
-
         Connection connection = null; // Initialisation à null en cas d'erreur
         try {
             connection = DriverManager.getConnection(url, user, password);
