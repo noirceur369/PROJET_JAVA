@@ -19,5 +19,7 @@ public class DatabaseConnection {
             // Autres actions de gestion d'erreur (log, notification, etc.)
         }
         return connection; // Retourne la connexion (éventuellement null en cas d'erreur)
+        
+        
     }
 }
