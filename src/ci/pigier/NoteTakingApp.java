@@ -32,9 +32,7 @@ public class NoteTakingApp extends Application {
 	@Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(FXMLPage.LIST.getPage());
-        
         Scene scene = new Scene(root);
-     
         stage.setScene(scene);
         stage.setTitle("Application DE PRISE DE NOTE v1.0.0");
         stage.setResizable(false);
